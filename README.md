@@ -4,9 +4,9 @@ A PowerShell script to manage authorization of Teams Phone Resource Accounts to 
 
 ## Overview
 
-This tool provides a simple way to authorize, check, and remove authorization for Teams Phone Resource Accounts to work with Azure Communication Services through signed HTTP requests using HMAC-SHA256 authentication.
-The script has been created to perform the operations described in section "Configure your Communication Services resource to accept calls for the Teams resource account" of the following page [Answer Teams Phone calls from Call Automation](https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/tpe/teams-phone-extensibility-answer-teams-calls#configure-your-communication-services-resource-to-accept-calls-for-the-teams-resource-account).
-It implements the pseudocode described in the section "Access Key Authentication" on the page [Azure Communication Service Authentication](https://learn.microsoft.com/en-us/rest/api/communication/authentication).
+- This tool provides a simple way to authorize, check, and remove authorization for Teams Phone Resource Accounts to work with Azure Communication Services through signed HTTP requests using HMAC-SHA256 authentication.
+- The script has been created to perform the operations described in section "Configure your Communication Services resource to accept calls for the Teams resource account" of the following page [Answer Teams Phone calls from Call Automation](https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/tpe/teams-phone-extensibility-answer-teams-calls#configure-your-communication-services-resource-to-accept-calls-for-the-teams-resource-account).
+- It implements the pseudocode described in the section "Access Key Authentication" on the page [Azure Communication Service Authentication](https://learn.microsoft.com/en-us/rest/api/communication/authentication).
 
 ## Features
 
