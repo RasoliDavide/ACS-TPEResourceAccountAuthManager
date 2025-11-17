@@ -142,7 +142,7 @@ This script uses the ACS Teams Extension API version `2025-06-30`.
 
 **404 Not Found**
 - Check that the Resource Account Object ID is correct
-- Verify the Tenant ID matches your Azure AD tenant
+- Verify the Tenant ID matches your Microsoft Entra tenant
 
 **400 Bad Request**
 - Ensure the ACS endpoint URL is correct
