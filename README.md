@@ -5,6 +5,8 @@ A PowerShell script to manage authorization of Teams Phone Resource Accounts to 
 ## Overview
 
 This tool provides a simple way to authorize, check, and remove authorization for Teams Phone Resource Accounts to work with Azure Communication Services through signed HTTP requests using HMAC-SHA256 authentication.
+The script has been created to perform the operations described in section "Configure your Communication Services resource to accept calls for the Teams resource account" of the following page [Answer Teams Phone calls from Call Automation](https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/tpe/teams-phone-extensibility-answer-teams-calls#configure-your-communication-services-resource-to-accept-calls-for-the-teams-resource-account).
+It implements the pseudocode described in the section "Access Key Authentication" on the page [Azure Communication Service Authentication](https://learn.microsoft.com/en-us/rest/api/communication/authentication).
 
 ## Features
 
@@ -28,7 +30,7 @@ Before running the script, you'll need to gather the following information:
 
 2. **Access Key**: Your ACS resource's access key (Base64 encoded)
    - Found in Azure Portal → Your ACS Resource → Keys
-   - Note: the access key you find in the page at the point above is already in Base64 format, so it is sufficient to copy/paste it.
+   - Note: the access key you find on the page mentioned above is already in Base64 format, so it is sufficient to copy/paste it.
 
 3. **Resource Account Object ID**: The Object ID of your Teams Phone Resource Account
    - Found in Microsoft Entra → Enterprise Applications → Your Resource Account
@@ -166,11 +168,6 @@ This script uses the ACS Teams Extension API version `2025-06-30`.
 3. **Verify**: Uncomment GET section and run script to confirm authorization
 4. **Remove (if needed)**: Uncomment DELETE section and run script
 
-## Support
-
-For issues related to:
-- **Azure Communication Services**: [ACS Documentation](https://learn.microsoft.com/azure/communication-services/)
-- **Teams Phone Extensibility**: [Teams Developer Documentation](https://learn.microsoft.com/microsoftteams/platform/)
 
 ## Disclaimer
 
